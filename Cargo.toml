@@ -1,0 +1,12 @@
+[package]
+name = "ip-packet"
+version = "0.0.0"
+edition = "2021"
+license = "MIT"
+description = "Rust wrapper for IP (IPv4 and IPv6) packets"
+readme = "README.md"
+repository = "https://github.com/dynos01/ip-packet"
+categories = ["network-programming", "api-bindings"]
+include = ["src/**/*.rs", "Cargo.toml", "README.md"]
+
+[dependencies]
